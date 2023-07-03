@@ -1,0 +1,47 @@
+body {
+    background-image: linear-gradient(to left, rgba(245, 246, 252, 0.52), rgb(220, 248, 250)), url("imgs/LionelMessi.jpg");
+    background-repeat:  no-repeat;
+    background-position: center ;
+    background-size: cover;
+    background-color: white;
+}
+
+.container{
+    text-align: center;
+    float: left;
+    clear: both;
+
+}
+      
+
+
+    
+h1{
+font-size: 50px;
+border: 2px solid black; /* Establece un borde sólido de 2 píxeles de ancho y color negro */
+    padding: 10px; /* Agrega un espacio interno de 10 píxeles alrededor del título */
+}
+
+
+h3{
+    font-size: 30px; 
+}
+
+.redondeado{
+    border-radius: 50%; 
+}
+
+.imagen img {
+    transition: transform 0.3s; /* Añade una transición suave */
+    position: relative;
+    top: 10px; 
+    left: 30px; 
+    
+  }
+   .imagen img:hover {
+    transform: scale(1.5); 
+  }
+  
+ 
+  
+
